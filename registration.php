@@ -24,7 +24,7 @@
           <p><strong>Пароль:</strong>
           <input type="password" placeholder="пароль" name="password" required>
           <p><strong>Номер телефона:</strong>
-          <input type="tel" placeholder="Номер телефона +78.." name="phone" required>
+          <input placeholder="Номер телефона +78.." name="phone" required>
           <p><strong>Ваш пол:</strong>
           <input type="radio" name="State" value="M"> Мужик</p> 
           <input type="radio" name="State" value="W"> Баба</p> 
@@ -41,5 +41,9 @@
         </form>
       </div>
   </header>
+  <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+  <script src="js/jquery.js" type="text/javascript"></script>
+
+  
  </body>
 </html>
